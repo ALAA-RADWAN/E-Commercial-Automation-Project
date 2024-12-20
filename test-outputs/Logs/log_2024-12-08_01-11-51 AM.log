@@ -1,0 +1,7 @@
+[INFO] 08-12-2024 01:11:51 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:26)] - Browser is opened
+[INFO] 08-12-2024 01:11:51 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:28)] - we are in the login page now
+[INFO] 08-12-2024 01:11:52 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTC started
+[INFO] 08-12-2024 01:11:52 [main] [Pages.P02_HomePage.addAllProductsToCart(P02_HomePage.java:28)] - Number Of All Products 6
+[INFO] 08-12-2024 01:11:53 [main] [Pages.P02_HomePage.getNumberOfProductsOnTheCart(P02_HomePage.java:37)] - Number Of products on the cart 6
+[INFO] 08-12-2024 01:11:53 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:48)] - Number Of selected products 6
+[INFO] 08-12-2024 01:11:54 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case validLoginTC passed

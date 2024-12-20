@@ -1,0 +1,7 @@
+[INFO] 12-12-2024 12:34:57 [main] [Tests.TC04_CheckoutTest.setUp(TC04_CheckoutTest.java:36)] - Browser is opened
+[INFO] 12-12-2024 12:34:58 [main] [Tests.TC04_CheckoutTest.setUp(TC04_CheckoutTest.java:38)] - we are in the login page now
+[INFO] 12-12-2024 12:34:58 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkoutStepOneTC started
+[INFO] 12-12-2024 12:34:58 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 1
+[INFO] 12-12-2024 12:34:59 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 6
+[INFO] 12-12-2024 12:35:00 [main] [Tests.TC04_CheckoutTest.checkoutStepOneTC(TC04_CheckoutTest.java:57)] - fTest-2024-12-12-12-34-52PM lTest-2024-12-12-12-34-52PM 86003
+[INFO] 12-12-2024 12:35:00 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkoutStepOneTC passed

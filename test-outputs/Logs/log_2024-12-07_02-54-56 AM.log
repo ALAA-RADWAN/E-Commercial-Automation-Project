@@ -1,0 +1,4 @@
+[INFO] 07-12-2024 02:54:56 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:26)] - Browser is opened
+[INFO] 07-12-2024 02:54:56 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:28)] - we are in the login page now
+[INFO] 07-12-2024 02:54:57 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTC started
+[INFO] 07-12-2024 02:54:57 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case validLoginTC passed

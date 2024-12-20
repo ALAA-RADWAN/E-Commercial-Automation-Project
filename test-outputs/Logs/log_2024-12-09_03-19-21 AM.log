@@ -1,0 +1,20 @@
+[INFO] 09-12-2024 03:19:21 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:26)] - Browser is opened
+[INFO] 09-12-2024 03:19:22 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:28)] - we are in the login page now
+[ERROR] 09-12-2024 03:19:33 [main] [Utilities.Utility.takeFullScreenShotShutterBug(Utility.java:87)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=131.0.6778.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bd18b2d762ed70e989f6c52dcc817bf, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.87 (ce31cae94873..., userDataDir: C:\Users\ALAARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60426/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3bd18b2d762ed70e989f6c52dcc817bf
+[INFO] 09-12-2024 03:19:34 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case addingRandomProductsTC started
+[INFO] 09-12-2024 03:19:34 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:62)] - random number 2
+[INFO] 09-12-2024 03:19:34 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:62)] - random number 3
+[INFO] 09-12-2024 03:19:34 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:62)] - random number 6
+[INFO] 09-12-2024 03:19:34 [main] [Pages.P02_HomePage.getNumberOfProductsOnTheCart(P02_HomePage.java:41)] - Number Of products on the cart 3
+[INFO] 09-12-2024 03:19:35 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:52)] - Number Of selected products 3
+[INFO] 09-12-2024 03:19:37 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case addingRandomProductsTC passed
+[ERROR] 09-12-2024 03:19:37 [main] [Utilities.Utility.takeFullScreenShotShutterBug(Utility.java:87)] - Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[ERROR] 09-12-2024 03:19:37 [main] [Utilities.Utility.takeScreenShot(Utility.java:78)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null

@@ -1,0 +1,27 @@
+[INFO] 11-12-2024 22:03:01 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:27)] - Browser is opened
+[INFO] 11-12-2024 22:03:01 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:29)] - we are in the login page now
+[INFO] 11-12-2024 22:03:02 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 11-12-2024 22:03:02 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 1
+[INFO] 11-12-2024 22:03:02 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 3
+[ERROR] 11-12-2024 22:03:03 [main] [Pages.P02_HomePage.getTotalPricesOfSelectedProducts(P02_HomePage.java:99)] - invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression (//button[.=\\\"Remove\\\"]//preceding-sibling::div[@class='inventory_item_price'])[0] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[.=\\\"Remove\\\"]//preceding-sibling::div[@class='inventory_item_price'])[0]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d74afad556ef5d41e7e98a3a0c0805e9, findElement {using=xpath, value=(//button[.=\"Remove\"]//preceding-sibling::div[@class='inventory_item_price'])[0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.110, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ALAARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54909/devtoo..., se:cdpVersion: 131.0.6778.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d74afad556ef5d41e7e98a3a0c0805e9
+[ERROR] 11-12-2024 22:03:03 [main] [Pages.P03_CartPage.getTotalPrices(P03_CartPage.java:32)] - invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression (//button[.=\\\"Remove\\\"]//preceding-sibling::div[@class='inventory_item_price'])[0] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[.=\\\"Remove\\\"]//preceding-sibling::div[@class='inventory_item_price'])[0]' is not a valid XPath expression."}
+  (Session info: chrome=131.0.6778.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d74afad556ef5d41e7e98a3a0c0805e9, findElement {using=xpath, value=(//button[.=\"Remove\"]//preceding-sibling::div[@class='inventory_item_price'])[0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.110, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\ALAARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54909/devtoo..., se:cdpVersion: 131.0.6778.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d74afad556ef5d41e7e98a3a0c0805e9
+[INFO] 11-12-2024 22:03:03 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case comparingPricesTC passed
+[ERROR] 11-12-2024 22:03:03 [main] [Utilities.Utility.takeScreenShot(Utility.java:78)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null

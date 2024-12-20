@@ -1,0 +1,9 @@
+[INFO] 11-12-2024 22:38:49 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:27)] - Browser is opened
+[INFO] 11-12-2024 22:38:50 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:29)] - we are in the login page now
+[INFO] 11-12-2024 22:38:50 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 11-12-2024 22:38:51 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 1
+[INFO] 11-12-2024 22:38:51 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 11-12-2024 22:38:51 [main] [Pages.P02_HomePage.getTotalPricesOfSelectedProducts(P02_HomePage.java:96)] - Total Prices 39.98
+[INFO] 11-12-2024 22:38:51 [main] [Pages.P03_CartPage.getTotalPrices(P03_CartPage.java:29)] - Total Prices 39.98
+[INFO] 11-12-2024 22:38:51 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:18)] - Test Case comparingPricesTC failed
+[ERROR] 11-12-2024 22:38:51 [main] [Utilities.Utility.takeScreenShot(Utility.java:78)] - Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "driver" is null

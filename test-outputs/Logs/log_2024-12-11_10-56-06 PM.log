@@ -1,0 +1,8 @@
+[INFO] 11-12-2024 22:56:06 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:27)] - Browser is opened
+[INFO] 11-12-2024 22:56:06 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:29)] - we are in the login page now
+[INFO] 11-12-2024 22:56:06 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 11-12-2024 22:56:07 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 4
+[INFO] 11-12-2024 22:56:07 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 5
+[INFO] 11-12-2024 22:56:07 [main] [Pages.P02_HomePage.getTotalPricesOfSelectedProducts(P02_HomePage.java:96)] - Total Prices 57.980003
+[INFO] 11-12-2024 22:56:07 [main] [Pages.P03_CartPage.getTotalPrices(P03_CartPage.java:29)] - Total Prices 57.980003
+[INFO] 11-12-2024 22:56:07 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case comparingPricesTC passed

@@ -1,0 +1,55 @@
+[INFO] 13-12-2024 00:47:18 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:23)] - Browser is opened
+[INFO] 13-12-2024 00:47:18 [main] [Tests.TC01_LoginTest.setUp(TC01_LoginTest.java:25)] - we are in the login page now
+[INFO] 13-12-2024 00:47:18 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTC started
+[INFO] 13-12-2024 00:47:19 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case validLoginTC passed
+[INFO] 13-12-2024 00:47:20 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:24)] - Browser is opened
+[INFO] 13-12-2024 00:47:20 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:26)] - we are in the login page now
+[INFO] 13-12-2024 00:47:20 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case addingRandomProductsTC started
+[INFO] 13-12-2024 00:47:21 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 13-12-2024 00:47:21 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 3
+[INFO] 13-12-2024 00:47:21 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 5
+[INFO] 13-12-2024 00:47:21 [main] [Pages.P02_HomePage.getNumberOfProductsOnTheCart(P02_HomePage.java:46)] - Number Of products on the cart 3
+[INFO] 13-12-2024 00:47:21 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:57)] - Number Of selected products 3
+[INFO] 13-12-2024 00:47:21 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case addingRandomProductsTC passed
+[INFO] 13-12-2024 00:47:23 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:24)] - Browser is opened
+[INFO] 13-12-2024 00:47:23 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:26)] - we are in the login page now
+[INFO] 13-12-2024 00:47:23 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkNumberOfSelectedProductsTC started
+[INFO] 13-12-2024 00:47:23 [main] [Pages.P02_HomePage.addAllProductsToCart(P02_HomePage.java:37)] - Number Of All Products 6
+[INFO] 13-12-2024 00:47:24 [main] [Pages.P02_HomePage.getNumberOfProductsOnTheCart(P02_HomePage.java:46)] - Number Of products on the cart 6
+[INFO] 13-12-2024 00:47:24 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:57)] - Number Of selected products 6
+[INFO] 13-12-2024 00:47:24 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkNumberOfSelectedProductsTC passed
+[INFO] 13-12-2024 00:47:25 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:24)] - Browser is opened
+[INFO] 13-12-2024 00:47:26 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:26)] - we are in the login page now
+[INFO] 13-12-2024 00:47:26 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case clickOnCartIconTC started
+[INFO] 13-12-2024 00:47:26 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case clickOnCartIconTC passed
+[INFO] 13-12-2024 00:47:28 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:24)] - Browser is opened
+[INFO] 13-12-2024 00:47:28 [main] [Tests.TC03_CartTest.setUp(TC03_CartTest.java:26)] - we are in the login page now
+[INFO] 13-12-2024 00:47:28 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 13-12-2024 00:47:28 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 3
+[INFO] 13-12-2024 00:47:29 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 5
+[INFO] 13-12-2024 00:47:29 [main] [Pages.P02_HomePage.getTotalPricesOfSelectedProducts(P02_HomePage.java:89)] - Total Prices 23.98
+[INFO] 13-12-2024 00:47:29 [main] [Pages.P03_CartPage.getTotalPrices(P03_CartPage.java:30)] - Total Prices 23.98
+[INFO] 13-12-2024 00:47:29 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case comparingPricesTC passed
+[INFO] 13-12-2024 00:47:30 [main] [Tests.TC04_CheckoutTest.setUp(TC04_CheckoutTest.java:33)] - Browser is opened
+[INFO] 13-12-2024 00:47:31 [main] [Tests.TC04_CheckoutTest.setUp(TC04_CheckoutTest.java:35)] - we are in the login page now
+[INFO] 13-12-2024 00:47:31 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkoutStepOneTC started
+[INFO] 13-12-2024 00:47:31 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 13-12-2024 00:47:31 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 4
+[INFO] 13-12-2024 00:47:32 [main] [Tests.TC04_CheckoutTest.checkoutStepOneTC(TC04_CheckoutTest.java:54)] - fTest-2024-12-13-12-47-14AM lTest-2024-12-13-12-47-14AM 14883
+[INFO] 13-12-2024 00:47:32 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkoutStepOneTC passed
+[INFO] 13-12-2024 00:47:33 [main] [Tests.TC05_OverviewTest.setUp(TC05_OverviewTest.java:30)] - Browser is opened
+[INFO] 13-12-2024 00:47:34 [main] [Tests.TC05_OverviewTest.setUp(TC05_OverviewTest.java:32)] - we are in the login page now
+[INFO] 13-12-2024 00:47:34 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkoutStepTwoTC started
+[INFO] 13-12-2024 00:47:34 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 13-12-2024 00:47:35 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 4
+[INFO] 13-12-2024 00:47:35 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:51)] - fTest-2024-12-13-12-47-14AM lTest-2024-12-13-12-47-14AM 20735
+[INFO] 13-12-2024 00:47:35 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:29)] - Calculated Total Price: $ 64.78
+[INFO] 13-12-2024 00:47:35 [main] [Pages.P05_OverviewPage.getTotalPrice(P05_OverviewPage.java:25)] - Actual Total Price: $ 64.78
+[INFO] 13-12-2024 00:47:36 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkoutStepTwoTC passed
+[INFO] 13-12-2024 00:47:37 [main] [Tests.TC06_FinishingOrderTest.setUp(TC06_FinishingOrderTest.java:30)] - Browser is opened
+[INFO] 13-12-2024 00:47:37 [main] [Tests.TC06_FinishingOrderTest.setUp(TC06_FinishingOrderTest.java:32)] - we are in the login page now
+[INFO] 13-12-2024 00:47:37 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case finishOrderTC started
+[INFO] 13-12-2024 00:47:37 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 1
+[INFO] 13-12-2024 00:47:38 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 13-12-2024 00:47:38 [main] [Tests.TC06_FinishingOrderTest.finishOrderTC(TC06_FinishingOrderTest.java:51)] - fTest-2024-12-13-12-47-14AM lTest-2024-12-13-12-47-14AM 03180
+[INFO] 13-12-2024 00:47:38 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case finishOrderTC passed

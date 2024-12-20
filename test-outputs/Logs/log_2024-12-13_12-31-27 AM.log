@@ -1,0 +1,20 @@
+[INFO] 13-12-2024 00:31:27 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:27)] - Browser is opened
+[INFO] 13-12-2024 00:31:27 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:29)] - we are in the login page now
+[INFO] 13-12-2024 00:31:27 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case addingRandomProductsTC started
+[INFO] 13-12-2024 00:31:28 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 1
+[INFO] 13-12-2024 00:31:28 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 13-12-2024 00:31:28 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 3
+[INFO] 13-12-2024 00:31:28 [main] [Pages.P02_HomePage.getNumberOfProductsOnTheCart(P02_HomePage.java:46)] - Number Of products on the cart 3
+[INFO] 13-12-2024 00:31:28 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:57)] - Number Of selected products 3
+[INFO] 13-12-2024 00:31:28 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case addingRandomProductsTC passed
+[INFO] 13-12-2024 00:31:29 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:27)] - Browser is opened
+[INFO] 13-12-2024 00:31:29 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:29)] - we are in the login page now
+[INFO] 13-12-2024 00:31:29 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkNumberOfSelectedProductsTC started
+[INFO] 13-12-2024 00:31:30 [main] [Pages.P02_HomePage.addAllProductsToCart(P02_HomePage.java:37)] - Number Of All Products 6
+[INFO] 13-12-2024 00:31:31 [main] [Pages.P02_HomePage.getNumberOfProductsOnTheCart(P02_HomePage.java:46)] - Number Of products on the cart 6
+[INFO] 13-12-2024 00:31:31 [main] [Pages.P02_HomePage.getNumberOfSelectedProducts(P02_HomePage.java:57)] - Number Of selected products 6
+[INFO] 13-12-2024 00:31:31 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkNumberOfSelectedProductsTC passed
+[INFO] 13-12-2024 00:31:32 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:27)] - Browser is opened
+[INFO] 13-12-2024 00:31:32 [main] [Tests.TC02_HomeTest.setUp(TC02_HomeTest.java:29)] - we are in the login page now
+[INFO] 13-12-2024 00:31:32 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case clickOnCartIconTC started
+[INFO] 13-12-2024 00:31:33 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case clickOnCartIconTC passed

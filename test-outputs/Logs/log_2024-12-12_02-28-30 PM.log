@@ -1,0 +1,7 @@
+[INFO] 12-12-2024 14:28:30 [main] [Tests.TC06_FinishingOrderTest.setUp(TC06_FinishingOrderTest.java:33)] - Browser is opened
+[INFO] 12-12-2024 14:28:31 [main] [Tests.TC06_FinishingOrderTest.setUp(TC06_FinishingOrderTest.java:35)] - we are in the login page now
+[INFO] 12-12-2024 14:28:31 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case finishOrderTC started
+[INFO] 12-12-2024 14:28:32 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 2
+[INFO] 12-12-2024 14:28:32 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 6
+[INFO] 12-12-2024 14:28:33 [main] [Tests.TC06_FinishingOrderTest.finishOrderTC(TC06_FinishingOrderTest.java:54)] - fTest-2024-12-12-2-28-24PM lTest-2024-12-12-2-28-24PM 74762
+[INFO] 12-12-2024 14:28:34 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case finishOrderTC passed

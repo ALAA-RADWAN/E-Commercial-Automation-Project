@@ -1,0 +1,9 @@
+[INFO] 12-12-2024 14:10:45 [main] [Tests.TC05_OverviewTest.setUp(TC05_OverviewTest.java:33)] - Browser is opened
+[INFO] 12-12-2024 14:10:46 [main] [Tests.TC05_OverviewTest.setUp(TC05_OverviewTest.java:35)] - we are in the login page now
+[INFO] 12-12-2024 14:10:46 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkoutStepTwoTC started
+[INFO] 12-12-2024 14:10:46 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 3
+[INFO] 12-12-2024 14:10:46 [main] [Pages.P02_HomePage.addRandomProducts(P02_HomePage.java:67)] - random number 5
+[INFO] 12-12-2024 14:10:47 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:54)] - fTest-2024-12-12-2-10-39PM lTest-2024-12-12-2-10-39PM 17745
+[INFO] 12-12-2024 14:10:47 [main] [Pages.P05_OverviewPage.calculateTotalPrice(P05_OverviewPage.java:29)] - Calculated Total Price: $ 25.9
+[INFO] 12-12-2024 14:10:48 [main] [Pages.P05_OverviewPage.getTotalPrice(P05_OverviewPage.java:25)] - Actual Total Price: $ 25.90
+[INFO] 12-12-2024 14:10:48 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkoutStepTwoTC passed
