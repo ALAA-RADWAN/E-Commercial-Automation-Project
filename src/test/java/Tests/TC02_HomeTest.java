@@ -17,46 +17,43 @@ import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtil.getPropertyValue;
 
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class TC02_HomeTest {
-        @BeforeMethod
-        public void setUp() throws IOException {
-            setUpDriver(getPropertyValue("enviroment", "Browser"));
-            LogsUtil.info("Browser is opened");
-            getDriver().get(getPropertyValue("enviroment", "Base_URL"));
-            LogsUtil.info("we are in the login page now");
-            getDriver().manage().timeouts()
-                    .implicitlyWait(Duration.ofSeconds(10));
-        }
+public class TC02_HomeTest extends DriverSetUp{
+
+    private final String USERNAME = DataUtil.getJsonData("validLogin","Username");
+    private final String PASSWORD = DataUtil.getJsonData("validLogin","Password");
+
         @Test
         public void checkNumberOfSelectedProductsTC(){
+            //ToDo: Login Steps
             new P01_LoginPage(getDriver())
-                    .enterUsername(DataUtil.getJsonData("validLogin","Username"))
-                    .enterPassword(DataUtil.getJsonData("validLogin","Password"))
-                    .clickLoginButton()
-                    .addAllProductsToCart();
+                    .enterUsername(USERNAME)
+                    .enterPassword(PASSWORD)
+                    .clickLoginButton();
+            //TODO: Adding items Steps
+            new P02_HomePage(getDriver()).addAllProductsToCart();
             Assert.assertTrue(new P02_HomePage(getDriver()).comparingNumberOfSelectedProductsWithCart());
         }
         @Test
         public void addingRandomProductsTC(){
+            //ToDo: Login Steps
             new P01_LoginPage(getDriver())
-                    .enterUsername(DataUtil.getJsonData("validLogin","Username"))
-                    .enterPassword(DataUtil.getJsonData("validLogin","Password"))
-                    .clickLoginButton()
-                    .addRandomProducts(3,6);
+                    .enterUsername(USERNAME)
+                    .enterPassword(PASSWORD)
+                    .clickLoginButton();
+            //TODO: Adding items Steps
+            new P02_HomePage(getDriver()).addRandomProducts(3,6);
             Assert.assertTrue(new P02_HomePage(getDriver()).comparingNumberOfSelectedProductsWithCart());
         }
     @Test
     public void clickOnCartIconTC() throws IOException {
+        //ToDo: Login Steps
         new P01_LoginPage(getDriver())
-                .enterUsername(DataUtil.getJsonData("validLogin","Username"))
-                .enterPassword(DataUtil.getJsonData("validLogin","Password"))
-                .clickLoginButton()
-                .clickOnCartIcon();
+                .enterUsername(USERNAME)
+                .enterPassword(PASSWORD)
+                .clickLoginButton();
+        new P02_HomePage(getDriver()).clickOnCartIcon();
         Assert.assertTrue(Utility.verifyURL(getDriver(),getPropertyValue("enviroment","Cart_URL")));
     }
-        @AfterMethod
-        public void quit(){
-            quitDriver();
-        }
+
 }
 

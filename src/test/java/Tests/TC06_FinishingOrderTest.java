@@ -18,21 +18,13 @@ import Listeners.IInvokedMethodListenerClass;
 import Listeners.ITestResultListenerClass;
 
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class TC06_FinishingOrderTest {
+public class TC06_FinishingOrderTest extends DriverSetUp{
     private final String USERNAME = DataUtil.getJsonData("validLogin","Username");
     private final String PASSWORD = DataUtil.getJsonData("validLogin","Password");
     private final String FIRSTNAME = DataUtil.getJsonData("information","fName") + "-" + Utility.getTimeStamp();
     private final String LASTNAME = DataUtil.getJsonData("information","lName") + "-" + Utility.getTimeStamp();
     private final String ZIPCODE = new Faker().number().digits(5);
-    @BeforeMethod
-    public void setUp() throws IOException {
-        setUpDriver(getPropertyValue("enviroment", "Browser"));
-        LogsUtil.info("Browser is opened");
-        getDriver().get(getPropertyValue("enviroment", "Base_URL"));
-        LogsUtil.info("we are in the login page now");
-        getDriver().manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(10));
-    }
+
     @Test
     public void finishOrderTC() {
         //ToDo: Login Steps
@@ -53,8 +45,5 @@ public class TC06_FinishingOrderTest {
         new P05_OverviewPage(getDriver()).clickOnFinishButton();
         Assert.assertTrue(new P06_FinishingOrderPage(getDriver()).checkMessageVisibility());
     }
-    @AfterMethod
-    public void quit(){
-        quitDriver();
-    }
+
 }

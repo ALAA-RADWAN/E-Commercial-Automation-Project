@@ -16,26 +16,15 @@ import java.time.Duration;
 
 
 @Listeners({IInvokedMethodListenerClass.class,ITestResultListenerClass.class})
-public class TC01_LoginTest {
-    @BeforeMethod
-    public void setUp() throws IOException {
-        setUpDriver(getPropertyValue("enviroment", "Browser"));
-        LogsUtil.info("Browser is opened");
-        getDriver().get(getPropertyValue("enviroment", "Base_URL"));
-        LogsUtil.info("we are in the login page now");
-        getDriver().manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(10));
-    }
+public class TC01_LoginTest extends DriverSetUp{
+    private final String USERNAME = DataUtil.getJsonData("validLogin","Username");
+    private final String PASSWORD = DataUtil.getJsonData("validLogin","Password");
     @Test
     public void validLoginTC() throws IOException {
         new P01_LoginPage(getDriver())
-                .enterUsername(DataUtil.getJsonData("validLogin","Username"))
-                .enterPassword(DataUtil.getJsonData("validLogin","Password"))
+                .enterUsername(USERNAME)
+                .enterPassword(PASSWORD)
                 .clickLoginButton();
         Assert.assertTrue(new P01_LoginPage(getDriver()).assertLogin(getPropertyValue("enviroment", "Home_URL")));
-    }
-    @AfterMethod
-    public void quit(){
-        quitDriver();
     }
 }

@@ -17,29 +17,22 @@ import static DriverFactory.DriverFactory.*;
 import static Utilities.DataUtil.getPropertyValue;
 
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class TC03_CartTest {
-    @BeforeMethod
-    public void setUp() throws IOException {
-        setUpDriver(getPropertyValue("enviroment", "Browser"));
-        LogsUtil.info("Browser is opened");
-        getDriver().get(getPropertyValue("enviroment", "Base_URL"));
-        LogsUtil.info("we are in the login page now");
-        getDriver().manage().timeouts()
-                .implicitlyWait(Duration.ofSeconds(10));
-    }
+
+public class TC03_CartTest extends DriverSetUp{
+    private final String USERNAME = DataUtil.getJsonData("validLogin","Username");
+    private final String PASSWORD = DataUtil.getJsonData("validLogin","Password");
     @Test
     public void comparingPricesTC() {
-       String totalPrice =  new P01_LoginPage(getDriver())
-                .enterUsername(DataUtil.getJsonData("validLogin","Username"))
-                .enterPassword(DataUtil.getJsonData("validLogin","Password"))
-                .clickLoginButton()
+        //TODO Login
+       new P01_LoginPage(getDriver())
+                .enterUsername(USERNAME)
+                .enterPassword(PASSWORD)
+                .clickLoginButton();
+       //TODO: Adding items Steps
+        String totalPrice =  new P02_HomePage(getDriver())
                 .addRandomProducts(2,6)
                 .getTotalPricesOfSelectedProducts();
         new P02_HomePage(getDriver()).clickOnCartIcon();
         Assert.assertTrue(new P03_CartPage(getDriver()).comparingPrices(totalPrice));
-    }
-    @AfterMethod
-    public void quit(){
-        quitDriver();
     }
 }
