@@ -2,7 +2,7 @@
 
 - Link: https://www.saucedemo.com/
 
-*Test Focus* : 
+- *Test Focus* : 
 
 In this project, I developed and executed automation scripts for testing the Swag Labs e-commerce application, focusing on critical user workflows and functionalities.
 The project included the following scenarios:
@@ -15,7 +15,7 @@ The project included the following scenarios:
 
 4. Checkout Process : Verified the end-to-end checkout workflow, from entering user details to order completion, ensuring a smooth and error-free experience.
 
-*Tools and Technologies Used:*
+- *Tools and Technologies Used:*
 
 • Selenium: For automating web application testing.
 
@@ -33,7 +33,7 @@ The project included the following scenarios:
 
 *This project demonstrated my ability to automate a real-world e-commerce application,*
 
-*implement an efficient automation framework, and validate critical user workflows to ensure application reliability and performance*
+*implement an efficient automation framework, and validate critical user workflows to ensure application reliability and performance.*
 
 
 
